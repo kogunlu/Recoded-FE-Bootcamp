@@ -9,4 +9,3 @@
 8. Alaskan Malamute
 9. Golden Retriever
 10. Pitbull
-11. Deneme
