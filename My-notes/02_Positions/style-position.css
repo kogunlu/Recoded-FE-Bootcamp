@@ -1,0 +1,42 @@
+.parent {
+    font-size: 50px;
+    background-color: blanchedalmond;
+    position: relative;
+    height: 200vh;
+}
+
+.child-one {
+background-color: green;
+margin: 0;
+margin-left: 10px;
+margin-right: 10px;
+
+position: sticky;
+top: 0px;
+right: 0px;
+
+
+}
+
+.child-two {
+background-color: red;
+margin: 0;
+margin-left: 10px;
+margin-right: 10px;
+
+/* position: relative;
+top: 10px */
+
+}
+
+.child-three {
+background-color: pink;
+margin: 0;
+margin-left: 10px;
+margin-right: 10px;
+
+/* position: relative;
+top: 10px */
+
+}
+

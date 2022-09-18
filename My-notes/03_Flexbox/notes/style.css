@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  margin: 0;  
+  padding: 0;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #f4f4f4;
+
+
+   
+/*  Always is on the main axis
+        justify-content: end;
+
+    Always on the cross axis
+        align-items: start; 
+*/
+
+/*   flex-wrap: wrap; */
+
+}
+
+.item {
+    /* flex-basis: 300px; */
+    /* flex-grow: 1 ; */
+
+    flex: 1;        
+    /* faster way of saying  ->  flex: 1 (grow) 0 (shrink) 3 (basis) */
+
+
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+/* easiest way to center an item in a div/box, we can use 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+*/
+
+
+}
+
+.item:nth-of-type(1) {
+    /* align-self: start; */
+    /* order: 2; */
+
+    /* 
+    Responsive design: while we are growing/expending the page, they will expend in spesific rates:
+
+    flex-grow: 3; 
+    */
+
+    /*
+    Responsive design: while we are smalling the page, they (items) will decrease in spesific rates:
+
+    flex-shrink: 2
+    */
+
+
+
+}
+
+
+.item:nth-of-type(2) {
+    /* align-self: center; */
+    /* order: 1; */
+
+    /* flex-basis: 200px; */
+
+    /* flex-grow: 1; */
+
+
+}
+
+
+.item:nth-of-type(3) {
+    /* align-self: end; */
+    /* order: 3; */
+
+    /* flex-grow: 1; */    
+
+}
