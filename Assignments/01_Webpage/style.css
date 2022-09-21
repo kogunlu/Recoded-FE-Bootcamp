@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* **************** Nav ******************* */
+  .navbar {
+    background: #f5f4f0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar h1{
+    font-family: 'Bungee Spice', cursive; 
+  }
+  
+  /* **************** Body ******************* */
+  
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h3 {
+    line-height: 30px;
+  }
+  
+  .container-big{
+    background: #f5f4f0;
+  
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  
+  }
+  
+  .container-main{
+    width:80% ;
+  
+  }
+  
+  .item{
+    
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    margin: 5%;
+    padding: 3% 3%;
+  }
+  
+  .item-photo{
+    display: flex;
+    
+  }
+  
+  .item-text{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 3%;
+  }
+  
+  /* **************** Placement ******************* */
+  .img-front{
+    z-index: 1;
+    position: relative;
+    margin:20px 20px;
+    webkit-box-shadow: 3px 4px 15px -2px rgba(0,0,0,0.55); 
+    box-shadow: 3px 4px 15px -2px rgba(0,0,0,0.55);
+  }
+  
+  .img-back-1{
+    z-index: 0;
+    position: absolute;
+    opacity: 0.7;
+    margin-top: 40px;
+  }
+  
+  .img-back-2{
+    z-index: 0;
+    position: absolute;
+    opacity: 0.7;
+    align-self: center;
+    margin-left: 40px;
+  }
+  
+  
+  .img-back-3{
+    z-index: 0;
+    position: absolute;
+    opacity: 0.7;
+  }
+  
+  .img-back-4{
+    z-index: 0;
+    position: absolute;
+    opacity: 0.7;
+    margin: 40px 40px;
+  }
+  
+  .img-back-5{
+    z-index: 0;
+    position: absolute;
+    opacity: 0.7;
+    align-self: center;
+  }
+  
+  .order{
+    order: 2;
+  }
+  
+  /* **************** Price ************** */
+  .price{
+    width: 80%;
+    margin:3%;
+  }
+  
+  .price-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+  }
+  
+  /* **************** Contact ************** */
+  
+  .container-contact {
+    background-color:#9bcbbb;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+  }
+  
+  .container-1 {
+    text-align: center;
+    padding: 40px;    /* margin deneyebiliriz */
+    
+    
+  }
+  
+  .container-2 { 
+  }
+  
+  .container-2-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  
+  .container-2-b{
+    display: flex;
+    flex-direction: row;
+  
+  
+  } 
+  
+  .container-2-c{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container-3 {
+    display: flex;
+    justify-content: end;
+    
+    
+  }
+  
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    background:transparent;
+    box-sizing: border-box;
+  
+  }
+  
+  textarea {
+    resize: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background:transparent;
+    box-sizing: border-box;
+    min-height:100px;
+    min-width: 400px;
+  }
+  
+  .container-2-b textarea{
+    min-height: 25px;
+  }
+  
+  .container-3 input{
+    border: 0.5px solid;
+    padding: 10px;
+    margin: 5px;
+   
+  }
+  
+  /* **************** Footer ************** */
+  
+  .footer{
+  
+  display: flex;
+  
+  flex-direction: column;  
+  align-items: center; 
+  padding: 3%;  
+  line-height: 30px;
+  background: #f5f4f0;
+  }
