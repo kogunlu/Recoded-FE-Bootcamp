@@ -1,0 +1,40 @@
+body {
+    color: red;
+}
+
+.title {
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+@media (max-width: 500px) and (orientation: landscape) {
+    /* 
+        we can use two condition with "and" or ", which means OR"
+    */
+
+   body{
+    color: blue;
+   } 
+}
+
+    /* 
+    ---------------------
+    @media all and (max-width: 500px)
+    we can remove 'all' part since by default it will be 'all'
+
+    ---------------------
+    @media print {} --> these settings will be applied when we print
+
+    ---------------------
+    Must be at the bottom part since editor starts reading from top.
+
+    ---------------------
+    @media (orientation: landscape / portrait) {}  --> when the device is landscape
+
+    ---------------------
+
+
+    */
