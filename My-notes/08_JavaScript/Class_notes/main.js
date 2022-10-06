@@ -1,29 +1,27 @@
-const name = 'Kuday';
-const lastName = 'Ogunlu'
-let age = 24;
-let isStudentInRecoded = true;
+// const name = 'Kuday';
+// const lastName = 'Ogunlu'
+// let age2 = 24;
+// let isStudentInRecoded = true;
 
 
-console.log(name);
+// console.log(name);
 
 
-function helloWorld() {
-    console.log("Hello world!")
-}
+// function helloWorld() {
+//     console.log("Hello world!")
+// }
 
-function greeting (firstName, lastName2){
-    console.log("Hello " + firstName);
-    console.log(`Surname is: ${lastName2}`);
-}
+// function greeting (firstName, lastName2){
+//     console.log("Hello " + firstName);
+//     console.log(`Surname is: ${lastName2}`);
+// }
 
-greeting(Kuday, Ogunlu);
+// greeting(Kuday, Ogunlu);
 
 
 
 
 //-----------------------------------------------
-
-
 
 
 
